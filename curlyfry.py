@@ -4,7 +4,7 @@ import subprocess
 
 if (len(sys.argv) <= 2):
     print ("Usage: ")
-    print ("python curlyfry <filename> <command-name>")
+    print ("python curlyfry.py <filename> <command-name>")
 
 else:
     inFile = open (sys.argv[1], "r")
